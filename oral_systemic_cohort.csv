@@ -1,0 +1,351 @@
+id,age,gender,smoking,bmi,periodontal_stage,periodontal_stage_label,ppd_mean_mm,bop_percent,cal_mean_mm,missing_teeth,pgingivalis_log,salivary_mmp8_ng_ml,systemic_condition,hba1c_percent,hscrp_mg_l,systolic_bp,diastolic_bp,egfr,periodontal_treatment_received,delta_hba1c_6mo,delta_hscrp_6mo,systemic_risk_tier
+DS-1001,62,Male,Never,27.4,1,Stage 1,2.9,21,1.1,2,2.72,13.3,Healthy Control,5.3,1.59,109,71,77.6,True,-0.19,-0.37,Low
+DS-1002,23,Female,Never,29.6,1,Stage 1,3.0,14,2.0,2,1.98,13.8,Adverse Pregnancy Risk,5.3,2.14,124,75,78.4,True,0.01,-0.65,Moderate
+DS-1003,51,Female,Never,24.0,1,Stage 1,3.4,21,2.1,2,1.32,21.2,Type 2 Diabetes,7.8,3.86,107,62,72.5,False,-0.03,0.12,High
+DS-1004,78,Female,Never,27.2,1,Stage 1,3.5,18,1.3,2,1.93,20.5,Healthy Control,5.0,1.95,128,79,70.3,False,0.24,0.36,Low
+DS-1005,29,Female,Former,27.5,2,Stage 2,3.9,42,2.9,2,3.28,34.9,Adverse Pregnancy Risk,5.3,3.24,115,68,100.8,False,-0.09,0.4,High
+DS-1006,78,Female,Never,19.5,1,Stage 1,3.3,11,1.1,1,2.59,26.2,Type 2 Diabetes,9.1,3.84,135,86,60.3,False,0.05,0.14,High
+DS-1007,29,Male,Never,23.3,1,Stage 1,3.3,13,1.7,0,1.32,21.2,Healthy Control,5.0,1.8,138,86,111.7,True,-0.22,-0.45,Low
+DS-1008,44,Female,Never,23.4,3,Stage 3,4.7,46,4.1,7,4.41,79.5,Type 2 Diabetes,10.7,4.5,140,83,81.4,False,0.07,0.36,Critical
+DS-1009,79,Male,Never,28.8,0,Healthy Periodontium,2.0,9,0.0,1,0.59,13.8,Stroke / TIA History,5.3,3.69,132,78,71.8,True,-0.08,0.13,Moderate
+DS-1010,76,Male,Never,30.0,0,Healthy Periodontium,2.5,8,0.0,0,1.32,10.0,Coronary Artery Disease,5.1,3.26,125,79,56.8,True,-0.1,0.2,Moderate
+DS-1011,58,Male,Never,35.5,1,Stage 1,2.9,24,1.4,0,2.69,17.4,Healthy Control,5.4,2.2,110,73,55.0,False,-0.0,-0.06,Low
+DS-1012,43,Male,Former,22.5,3,Stage 3,5.4,56,5.6,8,3.89,70.4,Rheumatoid Arthritis,5.5,5.34,128,84,77.7,True,0.0,-1.52,High
+DS-1013,31,Female,Never,32.1,1,Stage 1,3.7,22,2.2,0,2.73,15.0,Healthy Control,5.6,1.71,128,83,90.2,False,0.02,0.33,Low
+DS-1014,77,Male,Never,31.9,3,Stage 3,5.2,57,5.6,8,4.3,70.7,Coronary Artery Disease,5.4,5.75,139,87,55.0,True,-0.09,-1.03,High
+DS-1015,65,Male,Never,27.6,0,Healthy Periodontium,2.3,7,0.0,1,0.93,5.7,Chronic Kidney Disease,5.0,3.34,134,86,33.2,False,0.04,0.34,Moderate
+DS-1016,41,Female,Never,29.0,3,Stage 3,5.6,60,4.8,5,5.02,65.4,Rheumatoid Arthritis,5.7,5.12,110,65,83.6,False,0.05,0.21,Critical
+DS-1017,34,Female,Never,30.0,1,Stage 1,3.4,10,2.1,0,2.52,15.2,Pre-diabetes / MetSyn,5.8,2.11,109,68,81.6,False,0.11,0.27,Moderate
+DS-1018,54,Female,Current,31.4,2,Stage 2,4.8,45,3.9,3,2.97,29.9,Pre-diabetes / MetSyn,5.9,3.0,118,74,62.1,True,-0.04,-1.77,High
+DS-1019,48,Female,Former,28.4,1,Stage 1,2.8,16,1.5,2,2.81,12.3,Chronic Kidney Disease,5.5,4.4,145,93,52.0,True,-0.1,-0.73,Moderate
+DS-1020,53,Male,Never,34.6,2,Stage 2,4.6,45,2.6,3,4.16,47.5,Coronary Artery Disease,5.5,4.42,128,78,70.7,False,-0.0,0.42,High
+DS-1021,22,Female,Current,24.5,2,Stage 2,4.5,23,4.2,2,2.9,25.6,Adverse Pregnancy Risk,5.4,3.48,129,82,87.2,True,0.04,-1.71,High
+DS-1022,23,Female,Former,22.9,3,Stage 3,5.2,52,4.1,7,5.3,54.7,Pre-diabetes / MetSyn,6.1,4.44,110,70,61.8,False,-0.06,0.42,Critical
+DS-1023,62,Female,Former,28.4,2,Stage 2,4.5,42,2.8,4,3.89,35.2,Rheumatoid Arthritis,5.2,4.39,133,85,62.7,False,-0.04,-0.06,High
+DS-1024,73,Female,Never,27.1,4,Stage 4,6.7,72,6.8,13,6.32,74.7,Pre-diabetes / MetSyn,6.0,5.04,135,81,67.8,False,0.07,0.15,Critical
+DS-1025,26,Female,Never,18.9,2,Stage 2,3.9,29,2.5,1,3.07,41.8,Adverse Pregnancy Risk,5.4,2.58,132,81,66.3,True,-0.17,-0.44,Moderate
+DS-1026,57,Female,Former,33.5,1,Stage 1,3.6,17,1.1,0,2.18,18.8,Healthy Control,5.0,2.06,123,73,74.8,True,-0.21,-0.37,Low
+DS-1027,60,Male,Former,24.7,2,Stage 2,4.8,31,3.9,3,3.05,38.9,Coronary Artery Disease,5.0,4.0,138,83,84.3,False,-0.08,-0.05,High
+DS-1028,38,Male,Never,26.6,2,Stage 2,4.4,30,3.9,0,2.61,43.0,Coronary Artery Disease,5.3,4.13,133,87,88.8,True,-0.22,-0.46,High
+DS-1029,75,Male,Current,21.9,3,Stage 3,5.0,42,5.4,3,4.65,71.1,Chronic Kidney Disease,5.4,6.01,148,94,36.6,False,0.18,0.16,Critical
+DS-1030,51,Male,Never,23.9,1,Stage 1,3.8,16,2.0,0,2.32,19.9,Healthy Control,5.4,2.13,109,72,70.5,True,-0.24,-0.47,Low
+DS-1031,73,Male,Former,27.4,2,Stage 2,3.5,35,2.5,0,3.33,26.8,Rheumatoid Arthritis,5.6,4.69,114,70,83.8,True,0.01,-1.46,High
+DS-1032,72,Female,Never,32.2,3,Stage 3,5.0,40,4.5,4,5.31,68.2,Pre-diabetes / MetSyn,6.2,3.28,95,63,55.0,False,-0.08,0.28,Critical
+DS-1033,67,Female,Never,22.9,3,Stage 3,5.9,49,4.9,2,4.03,83.6,Type 2 Diabetes,9.9,4.23,139,87,69.1,False,0.25,0.29,Critical
+DS-1034,49,Male,Former,26.3,2,Stage 2,3.6,27,3.6,0,2.58,43.1,Type 2 Diabetes,7.7,5.0,126,83,59.7,False,0.06,0.23,Critical
+DS-1035,79,Female,Current,27.0,3,Stage 3,4.9,68,5.7,6,4.34,83.5,Pre-diabetes / MetSyn,6.0,5.2,123,79,60.1,True,0.02,-1.16,Critical
+DS-1036,75,Female,Former,28.9,1,Stage 1,3.6,13,1.8,2,1.63,23.0,Pre-diabetes / MetSyn,5.7,1.47,118,78,61.4,True,-0.21,-0.54,Moderate
+DS-1037,45,Female,Current,22.8,1,Stage 1,3.6,17,2.2,1,2.47,16.9,Healthy Control,5.4,2.01,128,83,94.5,True,-0.06,-0.47,Moderate
+DS-1038,51,Female,Former,27.8,0,Healthy Periodontium,1.6,2,0.0,1,1.39,5.6,Healthy Control,5.4,0.77,119,77,99.7,False,0.12,0.41,Low
+DS-1039,39,Male,Former,28.5,1,Stage 1,3.1,13,2.0,0,2.87,17.3,Chronic Kidney Disease,5.5,5.25,124,79,57.1,True,-0.01,-0.75,Moderate
+DS-1040,30,Male,Never,24.5,3,Stage 3,4.9,53,5.5,3,4.39,50.9,Chronic Kidney Disease,5.0,5.59,145,89,33.2,True,-0.21,-1.87,High
+DS-1041,29,Male,Never,32.9,3,Stage 3,5.4,46,4.8,3,5.5,46.7,Rheumatoid Arthritis,5.5,5.48,133,87,79.7,False,0.12,0.18,High
+DS-1042,67,Female,Never,33.5,2,Stage 2,3.9,38,3.5,0,3.93,26.7,Pre-diabetes / MetSyn,6.3,2.98,115,71,74.8,False,0.13,0.04,High
+DS-1043,31,Female,Never,28.1,3,Stage 3,4.7,46,5.3,4,5.26,67.3,Coronary Artery Disease,5.8,5.49,141,89,59.5,True,0.0,-2.03,Critical
+DS-1044,57,Female,Never,25.4,1,Stage 1,2.9,16,2.0,2,2.24,21.3,Healthy Control,5.1,1.89,122,73,75.7,True,-0.14,-0.6,Low
+DS-1045,32,Female,Never,22.0,1,Stage 1,3.7,19,1.1,0,1.46,22.9,Healthy Control,5.2,1.79,110,67,55.5,False,0.08,0.0,Low
+DS-1046,36,Female,Current,27.4,0,Healthy Periodontium,1.8,5,0.0,0,1.07,7.3,Healthy Control,5.3,1.07,122,75,90.0,False,0.22,0.36,Moderate
+DS-1047,58,Female,Former,29.5,3,Stage 3,5.3,47,4.7,4,4.11,82.9,Coronary Artery Disease,5.3,4.9,117,69,74.4,True,0.02,-2.03,High
+DS-1048,68,Male,Never,26.8,1,Stage 1,2.8,19,1.2,2,1.33,25.8,Coronary Artery Disease,5.4,4.95,145,95,62.8,False,0.05,-0.0,Moderate
+DS-1049,39,Male,Never,28.5,0,Healthy Periodontium,2.1,2,0.0,0,0.52,7.3,Coronary Artery Disease,4.9,3.66,146,88,84.6,True,0.06,0.33,Moderate
+DS-1050,75,Female,Current,28.6,0,Healthy Periodontium,2.3,2,0.0,0,0.99,14.1,Type 2 Diabetes,7.3,4.29,121,74,71.4,False,0.15,0.23,Critical
+DS-1051,60,Male,Never,28.6,2,Stage 2,3.7,33,2.9,3,2.73,41.0,Healthy Control,5.4,2.08,129,76,56.1,True,-0.18,-1.66,Moderate
+DS-1052,26,Female,Current,23.1,1,Stage 1,3.5,23,1.9,2,1.26,16.9,Pre-diabetes / MetSyn,6.3,2.52,110,68,87.0,False,0.11,0.29,High
+DS-1053,72,Female,Never,27.0,1,Stage 1,3.8,22,1.6,0,1.83,25.7,Stroke / TIA History,5.5,4.83,138,84,91.5,True,-0.04,-0.55,Moderate
+DS-1054,29,Female,Never,26.4,0,Healthy Periodontium,2.1,4,0.0,1,0.13,13.3,Pre-diabetes / MetSyn,5.8,0.77,111,65,89.9,True,-0.05,-0.01,Moderate
+DS-1055,75,Female,Former,35.5,1,Stage 1,3.4,17,1.7,0,1.23,15.1,Healthy Control,5.1,1.89,112,71,70.2,False,0.11,-0.19,Low
+DS-1056,54,Male,Former,28.9,1,Stage 1,2.6,15,1.3,1,1.52,21.7,Type 2 Diabetes,7.2,3.83,117,76,70.6,True,-0.28,-0.47,High
+DS-1057,71,Female,Never,18.5,2,Stage 2,4.0,42,2.6,3,4.27,35.5,Healthy Control,5.0,2.59,119,73,79.0,True,-0.02,-1.59,Moderate
+DS-1058,44,Male,Current,34.2,2,Stage 2,3.7,33,3.1,3,3.84,45.5,Type 2 Diabetes,9.5,5.87,105,69,76.2,True,-0.49,-1.43,Critical
+DS-1059,50,Female,Never,29.5,1,Stage 1,3.1,21,2.0,1,2.25,18.3,Coronary Artery Disease,4.9,3.48,151,94,64.9,False,0.03,0.42,Moderate
+DS-1060,24,Male,Former,22.7,4,Stage 4,6.1,59,6.8,13,5.39,87.3,Type 2 Diabetes,9.9,6.16,136,90,69.7,True,-0.42,-1.1,Critical
+DS-1061,50,Male,Current,32.2,4,Stage 4,7.2,77,7.1,13,5.67,119.0,Chronic Kidney Disease,5.6,5.99,143,92,44.5,True,-0.23,-2.57,Critical
+DS-1062,67,Female,Former,18.5,3,Stage 3,5.9,44,4.2,4,4.96,63.0,Pre-diabetes / MetSyn,5.8,4.13,141,92,57.3,False,0.23,-0.05,Critical
+DS-1063,55,Female,Current,20.1,1,Stage 1,3.4,18,1.3,2,1.71,19.7,Type 2 Diabetes,9.8,5.09,126,80,82.9,True,-0.4,-0.47,Critical
+DS-1064,40,Female,Never,22.0,3,Stage 3,5.7,59,4.8,7,3.91,62.6,Coronary Artery Disease,5.9,6.47,128,80,67.0,False,0.06,-0.11,Critical
+DS-1065,25,Female,Current,32.8,4,Stage 4,6.2,65,7.4,14,5.95,80.4,Type 2 Diabetes,9.4,6.06,120,78,81.5,True,-0.23,-2.47,Critical
+DS-1066,78,Female,Former,27.5,3,Stage 3,5.2,65,4.1,6,4.15,67.1,Healthy Control,5.5,4.26,140,90,69.2,False,0.08,-0.17,High
+DS-1067,30,Female,Current,33.5,2,Stage 2,3.7,38,2.6,4,3.07,33.4,Coronary Artery Disease,5.2,5.64,123,73,76.5,True,-0.07,-1.48,High
+DS-1068,63,Male,Former,22.3,2,Stage 2,3.7,42,3.7,3,2.77,40.3,Healthy Control,5.2,2.58,116,74,69.9,True,-0.11,-1.08,Moderate
+DS-1069,56,Female,Former,34.0,4,Stage 4,6.7,71,6.9,8,6.33,85.3,Type 2 Diabetes,9.8,6.38,135,85,75.7,False,0.19,0.42,Critical
+DS-1070,73,Male,Never,31.6,1,Stage 1,3.5,15,2.1,2,1.64,18.9,Healthy Control,5.3,1.78,122,78,69.9,True,-0.22,-0.69,Low
+DS-1071,52,Male,Former,31.8,0,Healthy Periodontium,2.7,4,0.0,1,0.91,13.0,Type 2 Diabetes,9.6,1.78,121,78,91.3,True,0.23,-0.18,High
+DS-1072,75,Female,Former,26.7,1,Stage 1,3.5,23,2.1,0,1.22,20.2,Healthy Control,5.0,2.13,113,70,61.4,False,0.18,0.17,Low
+DS-1073,70,Male,Never,24.9,3,Stage 3,6.0,67,4.9,2,4.52,48.8,Stroke / TIA History,5.3,4.99,142,86,61.2,True,-0.11,-2.45,High
+DS-1074,65,Female,Former,33.0,3,Stage 3,6.1,63,5.1,3,5.52,64.1,Coronary Artery Disease,5.8,7.26,153,96,79.0,False,-0.07,0.17,Critical
+DS-1075,25,Male,Former,32.6,0,Healthy Periodontium,2.0,9,0.0,0,0.95,11.5,Type 2 Diabetes,9.0,2.08,121,74,69.2,True,0.09,-0.16,High
+DS-1076,79,Male,Current,32.2,2,Stage 2,3.9,27,3.8,3,3.17,45.4,Coronary Artery Disease,5.5,6.27,133,88,92.6,False,0.06,0.27,High
+DS-1077,49,Female,Current,40.4,1,Stage 1,3.0,14,1.2,2,2.5,12.5,Coronary Artery Disease,5.2,4.12,156,95,58.6,True,-0.02,-0.36,High
+DS-1078,30,Female,Never,26.5,4,Stage 4,6.5,91,6.9,15,6.11,83.0,Chronic Kidney Disease,5.3,7.75,143,88,47.3,False,0.18,0.01,High
+DS-1079,48,Female,Never,34.2,1,Stage 1,3.5,17,1.3,0,1.71,22.3,Pre-diabetes / MetSyn,5.8,2.3,115,73,66.9,True,0.01,-0.8,Moderate
+DS-1080,70,Male,Never,27.2,4,Stage 4,6.1,55,6.0,8,6.34,76.5,Stroke / TIA History,5.6,6.93,137,84,55.0,False,0.06,0.32,High
+DS-1081,68,Female,Former,28.3,2,Stage 2,3.8,32,3.1,4,4.06,41.8,Healthy Control,5.0,2.67,113,68,86.0,False,-0.01,0.33,Moderate
+DS-1082,68,Female,Never,34.3,3,Stage 3,5.2,48,5.3,5,4.13,80.6,Stroke / TIA History,5.0,6.01,122,72,56.4,False,0.03,0.2,High
+DS-1083,64,Female,Former,24.3,0,Healthy Periodontium,2.2,8,0.0,0,0.02,11.5,Type 2 Diabetes,7.7,3.51,133,80,76.1,False,-0.01,0.06,High
+DS-1084,45,Female,Never,22.7,1,Stage 1,3.4,14,1.8,0,2.31,24.4,Pre-diabetes / MetSyn,5.7,1.59,109,67,90.0,True,0.02,-0.26,Moderate
+DS-1085,36,Male,Current,28.8,3,Stage 3,5.5,57,4.1,2,5.03,56.2,Coronary Artery Disease,5.8,5.18,149,94,84.3,False,0.03,0.28,Critical
+DS-1086,72,Male,Never,24.1,4,Stage 4,5.6,82,6.0,6,5.34,112.3,Stroke / TIA History,5.5,6.67,155,98,66.0,False,0.18,0.26,High
+DS-1087,27,Female,Never,26.0,2,Stage 2,4.4,45,3.0,2,2.69,24.1,Type 2 Diabetes,8.9,3.63,122,75,59.1,False,0.2,-0.19,Critical
+DS-1088,48,Female,Former,25.4,2,Stage 2,4.3,29,3.4,1,3.73,28.1,Type 2 Diabetes,9.7,3.55,131,83,72.6,True,-0.18,-1.38,Critical
+DS-1089,61,Female,Current,27.2,2,Stage 2,4.0,42,4.2,1,3.04,38.5,Pre-diabetes / MetSyn,6.1,3.22,119,77,55.0,True,0.04,-1.19,Critical
+DS-1090,67,Male,Never,25.3,1,Stage 1,3.4,23,2.0,1,2.34,14.0,Healthy Control,5.2,1.65,125,78,68.2,False,0.15,0.33,Low
+DS-1091,60,Male,Never,32.4,1,Stage 1,3.4,12,1.8,0,2.16,21.4,Coronary Artery Disease,5.1,3.26,142,90,62.8,False,0.17,0.18,Moderate
+DS-1092,54,Male,Never,24.9,0,Healthy Periodontium,1.7,8,0.0,0,0.16,13.6,Healthy Control,5.2,0.61,114,69,55.0,True,-0.09,0.02,Low
+DS-1093,28,Male,Current,21.1,3,Stage 3,5.4,50,4.6,5,5.53,54.3,Coronary Artery Disease,5.5,5.63,143,92,68.0,False,-0.06,0.24,Critical
+DS-1094,53,Female,Former,23.6,2,Stage 2,4.3,33,3.0,3,3.61,43.5,Pre-diabetes / MetSyn,5.8,1.85,119,76,72.5,True,-0.08,-1.25,High
+DS-1095,53,Male,Former,34.2,2,Stage 2,3.7,32,3.9,4,2.6,32.6,Healthy Control,5.2,2.92,135,80,66.2,False,-0.04,0.1,Moderate
+DS-1096,69,Female,Former,26.9,1,Stage 1,2.7,22,1.7,1,2.12,23.0,Pre-diabetes / MetSyn,6.2,1.87,110,72,55.0,False,0.2,0.2,Moderate
+DS-1097,49,Male,Former,29.5,3,Stage 3,5.9,43,5.0,6,4.31,66.6,Type 2 Diabetes,9.7,6.49,134,87,55.0,True,-0.27,-1.31,Critical
+DS-1098,53,Male,Former,32.4,1,Stage 1,3.1,17,1.1,0,1.88,22.9,Pre-diabetes / MetSyn,6.3,1.84,143,92,87.3,False,0.19,0.02,Moderate
+DS-1099,58,Male,Former,29.0,2,Stage 2,4.0,43,3.7,0,2.68,42.8,Coronary Artery Disease,5.1,5.51,139,85,80.6,False,0.12,0.27,High
+DS-1100,70,Male,Never,27.0,0,Healthy Periodontium,1.7,5,0.0,1,0.11,10.3,Type 2 Diabetes,9.4,3.03,117,69,78.0,False,0.21,-0.11,High
+DS-1101,71,Male,Former,23.1,3,Stage 3,4.7,40,5.1,3,4.59,73.9,Coronary Artery Disease,5.3,5.81,141,93,60.3,False,0.13,-0.04,High
+DS-1102,60,Female,Former,33.9,3,Stage 3,6.0,59,4.4,6,4.72,74.9,Type 2 Diabetes,9.7,5.1,128,82,55.9,True,-0.19,-0.71,Critical
+DS-1103,47,Female,Former,24.4,2,Stage 2,4.1,44,3.1,4,3.47,27.7,Healthy Control,5.4,3.14,118,78,66.8,False,-0.06,0.2,Moderate
+DS-1104,25,Female,Former,34.7,2,Stage 2,3.7,22,3.6,0,2.79,46.9,Coronary Artery Disease,5.1,4.68,131,84,82.2,False,0.08,-0.16,High
+DS-1105,76,Male,Never,30.9,1,Stage 1,2.7,19,1.8,0,1.59,19.4,Healthy Control,5.0,1.7,131,84,64.8,False,0.22,0.01,Low
+DS-1106,74,Male,Former,27.0,1,Stage 1,3.4,10,1.2,2,2.87,25.8,Healthy Control,5.3,2.04,122,77,66.0,False,0.25,0.3,Low
+DS-1107,68,Male,Never,34.9,4,Stage 4,5.5,89,6.3,16,6.2,122.3,Healthy Control,5.4,3.78,129,85,68.4,True,0.02,-2.21,High
+DS-1108,66,Female,Never,28.7,3,Stage 3,5.5,72,4.2,8,4.51,68.7,Healthy Control,5.8,4.02,135,84,64.7,True,-0.09,-0.68,High
+DS-1109,35,Female,Never,31.0,1,Stage 1,2.7,12,2.0,1,2.6,22.1,Healthy Control,5.1,1.24,121,73,75.9,True,-0.22,-0.86,Low
+DS-1110,72,Male,Never,34.9,0,Healthy Periodontium,2.5,5,0.0,0,0.28,8.4,Pre-diabetes / MetSyn,5.8,0.47,131,78,65.4,False,-0.09,0.24,Moderate
+DS-1111,33,Female,Never,27.3,0,Healthy Periodontium,1.9,4,0.0,0,0.86,10.5,Coronary Artery Disease,5.2,2.85,142,86,66.1,False,0.07,0.31,Moderate
+DS-1112,44,Female,Never,28.9,0,Healthy Periodontium,2.0,5,0.0,0,1.25,12.1,Healthy Control,4.9,1.22,102,67,62.4,False,0.22,-0.18,Low
+DS-1113,66,Female,Current,19.4,2,Stage 2,4.3,28,3.9,3,3.48,28.2,Healthy Control,5.3,2.79,131,78,73.1,True,0.0,-0.6,Moderate
+DS-1114,26,Female,Former,29.4,2,Stage 2,4.3,32,2.9,1,4.26,41.6,Type 2 Diabetes,10.0,4.61,127,81,90.6,False,-0.06,0.27,Critical
+DS-1115,66,Female,Current,29.7,3,Stage 3,5.5,51,5.1,8,5.54,53.8,Coronary Artery Disease,5.7,6.91,150,91,60.7,False,0.18,0.27,Critical
+DS-1116,25,Female,Never,32.3,1,Stage 1,2.8,16,1.6,1,1.8,17.4,Rheumatoid Arthritis,5.5,3.57,116,71,92.0,True,-0.09,-0.27,Moderate
+DS-1117,27,Female,Former,25.9,2,Stage 2,4.2,22,3.1,1,3.59,34.4,Healthy Control,5.4,3.17,120,74,81.9,True,-0.14,-1.24,Moderate
+DS-1118,40,Female,Never,25.4,0,Healthy Periodontium,1.8,6,0.0,0,0.66,5.6,Pre-diabetes / MetSyn,6.0,0.67,114,68,63.3,False,-0.02,-0.03,Moderate
+DS-1119,25,Male,Former,26.1,2,Stage 2,3.6,33,3.8,3,4.25,38.2,Coronary Artery Disease,5.2,6.0,143,93,99.7,True,-0.21,-0.76,High
+DS-1120,33,Male,Current,30.6,3,Stage 3,4.8,67,4.1,7,4.58,84.9,Coronary Artery Disease,5.4,6.72,131,85,91.7,False,-0.06,-0.1,Critical
+DS-1121,58,Male,Current,28.4,2,Stage 2,3.6,31,3.9,2,4.08,30.3,Pre-diabetes / MetSyn,6.2,3.03,121,79,74.7,False,0.22,0.38,Critical
+DS-1122,23,Female,Current,35.2,2,Stage 2,3.9,37,3.9,0,4.25,29.5,Type 2 Diabetes,8.6,5.16,135,84,81.6,True,-0.39,-1.63,Critical
+DS-1123,41,Female,Never,22.3,3,Stage 3,6.0,41,4.3,8,4.16,47.3,Healthy Control,5.4,3.06,118,73,91.7,False,0.02,0.34,High
+DS-1124,38,Male,Never,24.6,1,Stage 1,2.8,19,1.9,0,2.66,21.4,Pre-diabetes / MetSyn,6.2,1.49,127,74,55.0,False,0.15,0.26,Moderate
+DS-1125,39,Female,Current,28.5,3,Stage 3,5.3,53,4.8,7,4.74,69.9,Coronary Artery Disease,5.3,6.48,127,84,78.1,True,0.02,-1.03,Critical
+DS-1126,73,Female,Former,30.9,3,Stage 3,5.8,71,5.8,4,5.43,61.2,Pre-diabetes / MetSyn,6.1,4.15,119,73,59.1,True,-0.16,-1.76,Critical
+DS-1127,69,Female,Former,22.3,2,Stage 2,4.8,43,4.0,0,2.9,29.4,Chronic Kidney Disease,5.0,5.1,139,86,33.8,True,0.01,-1.31,High
+DS-1128,41,Female,Never,30.6,3,Stage 3,4.8,52,4.6,6,5.41,84.5,Type 2 Diabetes,8.5,5.36,125,81,75.6,True,-0.59,-1.85,Critical
+DS-1129,49,Female,Never,27.6,2,Stage 2,3.5,39,2.7,2,4.21,45.4,Pre-diabetes / MetSyn,5.9,2.48,133,79,73.4,True,-0.0,-1.43,High
+DS-1130,40,Female,Former,27.4,2,Stage 2,4.0,43,4.2,2,4.29,35.8,Pre-diabetes / MetSyn,6.0,3.26,134,85,78.0,True,-0.05,-1.84,High
+DS-1131,66,Male,Never,30.9,2,Stage 2,4.3,37,3.6,1,3.75,39.1,Type 2 Diabetes,9.8,3.8,115,69,58.0,True,-0.47,-1.27,Critical
+DS-1132,32,Male,Former,28.5,4,Stage 4,6.7,85,6.3,5,4.82,74.9,Type 2 Diabetes,10.3,6.73,134,88,69.3,True,-0.21,-1.23,Critical
+DS-1133,45,Female,Never,25.6,0,Healthy Periodontium,2.5,2,0.0,0,1.19,10.9,Healthy Control,5.0,1.02,124,76,91.6,False,0.14,0.11,Low
+DS-1134,48,Male,Never,31.0,2,Stage 2,3.6,27,2.5,4,3.37,37.7,Type 2 Diabetes,9.5,5.57,137,85,87.9,True,-0.52,-1.41,Critical
+DS-1135,67,Male,Current,22.2,3,Stage 3,5.1,46,4.8,7,4.25,58.8,Pre-diabetes / MetSyn,6.2,4.97,112,67,55.0,False,0.19,-0.15,Critical
+DS-1136,50,Female,Never,29.4,2,Stage 2,3.9,37,3.7,0,2.68,33.9,Coronary Artery Disease,5.4,4.13,148,88,62.5,False,0.15,0.04,High
+DS-1137,50,Male,Never,33.0,2,Stage 2,3.5,33,3.9,2,3.49,33.0,Healthy Control,5.2,3.31,118,70,82.2,True,-0.03,-1.71,Moderate
+DS-1138,48,Male,Current,27.6,3,Stage 3,5.5,68,4.8,6,5.52,50.4,Coronary Artery Disease,5.7,7.52,144,86,65.8,False,0.08,0.05,Critical
+DS-1139,60,Male,Never,22.5,4,Stage 4,7.1,83,7.4,7,5.46,108.5,Pre-diabetes / MetSyn,6.4,5.37,132,84,59.4,True,0.04,-1.83,Critical
+DS-1140,33,Female,Former,26.5,3,Stage 3,5.5,66,5.2,8,4.76,80.1,Coronary Artery Disease,5.9,5.51,145,91,70.8,True,-0.03,-1.57,Critical
+DS-1141,37,Female,Former,32.1,0,Healthy Periodontium,2.0,8,0.0,1,1.35,5.0,Pre-diabetes / MetSyn,6.2,0.63,112,72,58.2,True,0.0,-0.08,Moderate
+DS-1142,65,Male,Never,24.8,1,Stage 1,3.2,16,1.0,1,2.15,13.9,Coronary Artery Disease,5.1,3.31,138,86,72.8,False,0.08,0.42,Moderate
+DS-1143,55,Male,Former,25.7,0,Healthy Periodontium,2.2,8,0.0,0,0.49,13.1,Coronary Artery Disease,5.3,3.5,142,85,71.3,True,0.24,0.24,Moderate
+DS-1144,42,Female,Current,31.3,4,Stage 4,6.2,89,7.2,5,6.26,115.2,Type 2 Diabetes,10.6,7.0,146,86,69.7,False,0.13,0.41,Critical
+DS-1145,69,Male,Never,32.4,3,Stage 3,4.7,44,4.1,8,4.25,47.8,Rheumatoid Arthritis,5.3,4.85,122,74,75.0,False,0.17,0.08,High
+DS-1146,47,Male,Never,34.9,2,Stage 2,3.7,34,3.8,4,3.03,39.2,Type 2 Diabetes,7.6,4.88,105,65,75.0,True,-0.28,-0.54,Critical
+DS-1147,44,Male,Never,27.9,2,Stage 2,4.2,27,2.6,4,4.0,28.7,Healthy Control,5.4,1.79,123,73,78.4,True,0.02,-1.4,Moderate
+DS-1148,50,Female,Former,34.6,1,Stage 1,3.3,19,1.7,1,2.83,14.4,Healthy Control,5.2,1.81,125,78,70.0,False,0.09,-0.09,Low
+DS-1149,60,Male,Current,27.5,3,Stage 3,4.8,52,4.5,7,3.94,48.0,Healthy Control,5.8,4.27,124,76,55.0,False,-0.05,0.13,Critical
+DS-1150,25,Female,Never,30.7,0,Healthy Periodontium,1.9,4,0.0,0,0.62,6.2,Adverse Pregnancy Risk,5.2,0.76,106,62,79.1,False,0.21,-0.17,Low
+DS-1151,63,Female,Never,25.3,4,Stage 4,6.6,72,7.4,9,5.73,101.4,Type 2 Diabetes,10.7,5.26,121,74,63.5,False,-0.03,-0.08,Critical
+DS-1152,45,Male,Former,26.6,1,Stage 1,3.0,11,1.6,1,2.01,20.6,Coronary Artery Disease,5.3,2.95,140,84,94.5,False,0.11,0.17,Moderate
+DS-1153,23,Female,Current,30.0,1,Stage 1,3.3,17,2.0,0,1.57,18.0,Healthy Control,5.4,2.43,138,82,80.2,True,-0.19,-0.3,Moderate
+DS-1154,54,Female,Current,20.7,3,Stage 3,4.9,42,5.6,6,4.71,49.7,Coronary Artery Disease,5.5,8.18,122,73,99.4,False,0.02,0.32,Critical
+DS-1155,70,Male,Never,27.6,1,Stage 1,3.5,24,2.0,1,2.22,19.9,Healthy Control,5.2,1.69,109,69,58.4,False,0.11,0.44,Low
+DS-1156,47,Male,Never,33.0,3,Stage 3,5.4,63,5.0,5,4.26,57.3,Type 2 Diabetes,9.3,6.36,119,73,64.5,True,-0.57,-0.68,Critical
+DS-1157,22,Male,Current,32.6,2,Stage 2,4.3,24,2.4,1,3.17,38.6,Pre-diabetes / MetSyn,5.7,3.58,129,80,99.8,True,-0.24,-0.99,Critical
+DS-1158,55,Male,Former,29.5,2,Stage 2,4.0,42,2.3,1,2.66,30.6,Type 2 Diabetes,10.1,3.87,127,80,74.1,False,-0.02,0.43,Critical
+DS-1159,51,Female,Former,32.7,1,Stage 1,3.1,11,1.7,2,1.7,25.7,Pre-diabetes / MetSyn,6.1,2.27,140,92,73.1,True,-0.11,-0.74,Moderate
+DS-1160,46,Male,Former,24.5,1,Stage 1,3.0,15,1.6,0,2.39,15.8,Healthy Control,5.0,1.67,116,73,55.0,True,-0.1,-0.79,Low
+DS-1161,36,Female,Current,30.9,1,Stage 1,2.8,13,2.0,1,1.47,13.5,Adverse Pregnancy Risk,5.3,2.26,112,74,94.1,False,0.04,0.29,Moderate
+DS-1162,30,Male,Former,21.7,1,Stage 1,3.7,10,1.6,1,2.66,23.3,Type 2 Diabetes,8.4,3.33,110,72,72.3,False,0.06,0.2,High
+DS-1163,45,Male,Never,28.1,1,Stage 1,3.4,15,1.4,1,1.68,14.6,Healthy Control,5.1,1.26,119,71,84.1,False,-0.05,0.38,Low
+DS-1164,62,Female,Former,26.9,2,Stage 2,4.3,40,2.4,0,3.74,25.4,Rheumatoid Arthritis,5.3,3.99,133,78,73.9,True,0.04,-1.45,High
+DS-1165,42,Female,Former,32.7,1,Stage 1,2.7,19,1.3,2,2.83,24.6,Coronary Artery Disease,5.0,4.87,129,82,88.4,False,-0.01,0.09,Moderate
+DS-1166,77,Female,Former,34.4,2,Stage 2,4.1,27,2.6,0,2.73,29.6,Type 2 Diabetes,10.2,3.43,123,79,55.0,True,-0.32,-0.57,Critical
+DS-1167,41,Male,Never,25.0,1,Stage 1,3.4,12,1.6,0,1.25,21.6,Rheumatoid Arthritis,5.2,3.71,107,68,84.1,False,0.22,0.11,Moderate
+DS-1168,36,Male,Never,27.2,1,Stage 1,2.9,14,1.0,2,2.59,24.3,Healthy Control,5.2,2.49,106,64,74.8,False,0.04,-0.09,Low
+DS-1169,69,Female,Current,36.6,1,Stage 1,2.7,20,1.3,2,2.57,21.9,Healthy Control,5.1,2.43,127,77,72.4,True,-0.2,-0.22,Moderate
+DS-1170,23,Male,Current,24.7,2,Stage 2,3.7,36,3.7,1,2.66,24.4,Healthy Control,4.9,3.36,115,71,82.2,False,0.19,0.34,High
+DS-1171,29,Male,Never,26.8,4,Stage 4,5.9,57,6.0,16,6.03,98.7,Stroke / TIA History,5.3,6.35,142,90,84.9,True,-0.18,-2.46,High
+DS-1172,22,Male,Former,23.8,2,Stage 2,4.1,29,2.3,0,3.55,40.6,Pre-diabetes / MetSyn,6.4,2.69,128,78,66.0,True,-0.21,-1.53,High
+DS-1173,57,Female,Current,28.3,2,Stage 2,3.8,44,3.0,1,2.95,24.9,Pre-diabetes / MetSyn,5.9,3.5,119,75,79.7,True,-0.12,-0.66,Critical
+DS-1174,56,Female,Never,32.1,3,Stage 3,5.4,51,5.6,6,5.34,76.0,Type 2 Diabetes,9.4,5.22,129,82,55.0,True,-0.63,-0.74,Critical
+DS-1175,33,Male,Never,24.6,2,Stage 2,3.6,40,3.5,3,3.68,36.6,Pre-diabetes / MetSyn,6.4,2.29,114,75,57.6,False,0.19,0.32,High
+DS-1176,25,Female,Former,22.7,3,Stage 3,5.9,44,5.7,6,3.97,74.0,Coronary Artery Disease,5.6,5.13,120,73,76.0,True,-0.2,-2.4,High
+DS-1177,47,Female,Former,30.7,2,Stage 2,4.3,33,4.0,4,4.28,31.8,Type 2 Diabetes,7.8,4.9,122,78,68.1,True,-0.54,-1.4,Critical
+DS-1178,71,Female,Current,31.1,2,Stage 2,4.3,40,2.6,0,3.33,27.7,Type 2 Diabetes,7.8,4.81,113,70,64.3,True,-0.35,-1.43,Critical
+DS-1179,68,Female,Never,21.7,0,Healthy Periodontium,2.4,7,0.0,1,0.58,12.9,Rheumatoid Arthritis,5.2,3.17,114,72,57.1,True,-0.05,0.24,Moderate
+DS-1180,47,Female,Former,31.3,2,Stage 2,3.6,35,2.9,3,2.77,32.1,Coronary Artery Disease,5.4,4.41,144,87,68.9,True,-0.18,-1.48,High
+DS-1181,49,Female,Former,29.7,2,Stage 2,3.7,35,3.1,2,2.84,32.3,Pre-diabetes / MetSyn,6.3,2.94,127,83,55.9,True,-0.02,-0.62,High
+DS-1182,29,Male,Never,29.6,2,Stage 2,3.7,31,2.3,0,3.05,35.3,Type 2 Diabetes,9.2,4.87,128,84,80.0,True,-0.51,-0.71,Critical
+DS-1183,61,Female,Never,28.8,3,Stage 3,4.6,64,5.2,7,5.33,71.4,Chronic Kidney Disease,5.5,6.04,139,87,41.7,True,-0.24,-0.77,High
+DS-1184,41,Female,Never,33.4,3,Stage 3,4.6,62,4.6,4,4.23,84.1,Coronary Artery Disease,5.2,7.51,134,88,77.2,False,0.08,0.24,High
+DS-1185,77,Male,Never,29.2,2,Stage 2,4.1,31,4.0,2,3.31,27.2,Pre-diabetes / MetSyn,6.2,1.97,110,71,72.3,True,-0.15,-1.05,High
+DS-1186,68,Male,Never,33.8,3,Stage 3,4.8,41,5.4,5,5.53,57.1,Pre-diabetes / MetSyn,5.8,3.21,131,83,63.8,True,0.01,-1.72,Critical
+DS-1187,30,Male,Never,24.7,0,Healthy Periodontium,2.4,2,0.0,1,1.33,6.7,Pre-diabetes / MetSyn,6.0,0.58,124,81,96.9,True,0.11,0.34,Moderate
+DS-1188,68,Female,Never,24.6,4,Stage 4,6.5,89,6.7,16,6.06,98.6,Coronary Artery Disease,5.1,7.06,139,90,62.2,True,-0.04,-1.08,High
+DS-1189,51,Female,Never,21.8,2,Stage 2,3.8,40,4.1,4,2.74,33.9,Coronary Artery Disease,5.1,4.66,154,92,58.3,False,-0.07,0.26,High
+DS-1190,68,Male,Never,22.7,2,Stage 2,4.6,32,3.4,1,2.79,27.5,Pre-diabetes / MetSyn,5.9,3.48,123,80,72.0,True,-0.07,-1.17,High
+DS-1191,48,Female,Never,22.5,2,Stage 2,3.8,39,2.8,4,3.98,29.0,Healthy Control,5.3,1.78,126,74,63.9,True,0.04,-0.77,Moderate
+DS-1192,45,Male,Never,25.3,1,Stage 1,3.0,16,2.0,1,2.63,12.9,Type 2 Diabetes,9.0,2.42,129,83,66.6,False,0.08,0.45,High
+DS-1193,44,Male,Former,24.9,2,Stage 2,4.5,37,3.2,1,4.09,29.6,Type 2 Diabetes,7.8,5.13,127,75,58.8,True,-0.64,-1.57,Critical
+DS-1194,40,Female,Former,28.3,1,Stage 1,3.2,15,1.9,0,2.37,16.9,Pre-diabetes / MetSyn,5.9,1.37,135,84,102.3,False,0.06,0.33,Moderate
+DS-1195,69,Male,Current,31.7,1,Stage 1,3.5,15,1.7,0,1.55,21.9,Pre-diabetes / MetSyn,6.4,2.56,134,84,63.7,False,0.15,0.0,High
+DS-1196,24,Female,Never,36.6,2,Stage 2,3.8,36,3.9,2,2.89,31.3,Healthy Control,4.9,3.05,123,74,83.0,True,-0.02,-1.72,Moderate
+DS-1197,55,Male,Never,31.4,0,Healthy Periodontium,2.0,3,0.0,0,0.44,4.9,Rheumatoid Arthritis,5.4,3.44,121,73,66.1,False,0.13,-0.02,Moderate
+DS-1198,30,Female,Never,28.0,4,Stage 4,6.5,61,6.0,10,5.68,84.9,Adverse Pregnancy Risk,5.4,5.25,117,69,67.5,False,0.12,0.0,High
+DS-1199,74,Male,Former,26.4,3,Stage 3,5.5,69,5.0,2,5.26,81.8,Coronary Artery Disease,5.4,5.41,162,100,76.1,False,0.06,-0.18,High
+DS-1200,52,Male,Never,21.0,2,Stage 2,3.7,33,3.4,1,3.41,33.7,Pre-diabetes / MetSyn,6.0,2.03,126,76,58.8,True,-0.15,-0.67,High
+DS-1201,39,Female,Former,30.1,2,Stage 2,4.6,39,3.6,1,3.69,25.9,Adverse Pregnancy Risk,5.0,2.59,122,75,82.7,False,0.01,0.22,Moderate
+DS-1202,25,Male,Never,28.9,0,Healthy Periodontium,2.2,2,0.0,0,0.93,8.9,Healthy Control,5.1,0.61,133,87,88.9,False,0.2,0.35,Low
+DS-1203,25,Female,Current,26.2,4,Stage 4,5.5,90,7.4,10,4.98,85.5,Healthy Control,5.4,5.78,123,77,87.5,False,-0.05,0.45,High
+DS-1204,64,Male,Never,35.6,0,Healthy Periodontium,1.6,9,0.0,1,1.36,5.8,Healthy Control,5.5,0.85,115,71,89.3,False,0.04,0.16,Low
+DS-1205,45,Male,Current,27.1,2,Stage 2,4.5,25,3.4,0,2.76,41.6,Stroke / TIA History,5.6,5.59,116,75,70.4,False,0.09,-0.19,High
+DS-1206,51,Female,Former,31.1,1,Stage 1,3.0,22,1.4,0,1.26,25.4,Pre-diabetes / MetSyn,5.8,1.35,135,82,57.3,False,-0.01,0.2,Moderate
+DS-1207,39,Female,Never,25.1,0,Healthy Periodontium,1.8,4,0.0,1,0.52,6.2,Pre-diabetes / MetSyn,6.4,0.93,125,77,92.4,True,-0.03,0.28,Moderate
+DS-1208,44,Male,Former,27.8,3,Stage 3,4.8,50,4.8,5,4.34,74.8,Rheumatoid Arthritis,5.6,4.98,140,89,55.7,False,0.02,-0.03,High
+DS-1209,28,Female,Former,29.1,1,Stage 1,3.5,21,1.3,2,2.2,14.8,Healthy Control,5.5,1.95,108,65,76.1,True,-0.06,-0.89,Low
+DS-1210,60,Male,Current,41.9,3,Stage 3,5.7,47,4.2,6,4.03,71.3,Chronic Kidney Disease,5.8,7.04,149,92,55.1,False,-0.01,0.31,Critical
+DS-1211,39,Male,Never,25.2,1,Stage 1,2.7,23,1.3,1,1.32,26.2,Healthy Control,5.2,1.43,123,76,78.2,True,0.03,-0.45,Low
+DS-1212,39,Male,Former,36.8,3,Stage 3,5.5,72,5.3,8,4.68,62.4,Rheumatoid Arthritis,5.7,5.18,144,88,80.5,True,-0.14,-0.92,Critical
+DS-1213,43,Male,Current,26.5,3,Stage 3,5.1,52,4.3,2,5.54,71.4,Type 2 Diabetes,8.0,6.76,119,77,79.0,False,0.24,-0.19,Critical
+DS-1214,43,Male,Never,21.4,2,Stage 2,4.1,28,3.8,4,3.33,40.3,Chronic Kidney Disease,5.4,4.35,129,76,49.0,True,-0.25,-0.94,High
+DS-1215,79,Female,Current,23.5,0,Healthy Periodontium,2.3,3,0.0,0,0.16,10.3,Coronary Artery Disease,5.0,4.05,136,83,55.9,False,-0.04,0.04,High
+DS-1216,32,Female,Never,24.9,2,Stage 2,3.7,42,3.5,1,2.53,35.7,Healthy Control,5.2,3.32,147,94,61.6,False,0.04,0.41,Moderate
+DS-1217,61,Male,Former,27.5,3,Stage 3,5.6,45,5.1,8,4.34,61.8,Coronary Artery Disease,5.1,4.51,138,90,55.0,True,-0.12,-2.06,High
+DS-1218,73,Female,Never,31.3,3,Stage 3,6.1,51,4.3,2,4.67,49.6,Chronic Kidney Disease,5.5,5.74,135,87,54.1,False,0.21,-0.15,High
+DS-1219,59,Female,Never,26.0,2,Stage 2,3.8,41,3.2,3,3.17,35.0,Healthy Control,5.3,1.97,119,74,63.3,True,0.02,-0.98,Moderate
+DS-1220,72,Male,Former,27.1,2,Stage 2,3.8,35,3.9,3,4.05,29.2,Coronary Artery Disease,5.2,4.77,147,87,66.6,False,0.07,0.32,High
+DS-1221,74,Male,Never,28.6,1,Stage 1,3.3,10,1.8,1,2.81,13.9,Healthy Control,5.4,1.66,106,69,80.8,False,0.12,0.26,Low
+DS-1222,22,Male,Never,20.7,2,Stage 2,4.2,31,3.1,2,3.76,38.7,Coronary Artery Disease,5.3,5.69,147,87,76.9,True,-0.14,-1.61,High
+DS-1223,57,Male,Former,36.4,3,Stage 3,4.8,61,4.4,2,4.97,74.5,Rheumatoid Arthritis,5.8,5.8,125,77,66.9,True,-0.11,-1.63,Critical
+DS-1224,74,Female,Never,26.4,2,Stage 2,4.4,44,3.8,0,2.84,45.2,Healthy Control,5.0,2.65,116,69,55.0,True,-0.11,-1.25,Moderate
+DS-1225,69,Male,Never,24.3,0,Healthy Periodontium,2.6,5,0.0,1,0.58,7.8,Coronary Artery Disease,5.1,3.19,122,76,56.9,False,0.23,0.2,Moderate
+DS-1226,32,Female,Never,23.8,0,Healthy Periodontium,2.4,4,0.0,0,0.33,4.9,Healthy Control,4.9,0.58,113,69,83.4,False,-0.06,-0.18,Low
+DS-1227,53,Male,Current,35.4,4,Stage 4,5.8,89,7.7,10,5.84,86.3,Chronic Kidney Disease,5.2,6.95,144,88,37.8,True,-0.07,-3.08,Critical
+DS-1228,71,Female,Never,26.2,0,Healthy Periodontium,2.5,3,0.0,1,0.27,7.6,Coronary Artery Disease,5.1,3.2,137,90,79.5,False,0.16,0.07,Moderate
+DS-1229,75,Male,Never,25.4,2,Stage 2,4.9,38,4.2,0,4.18,38.2,Type 2 Diabetes,7.8,5.12,132,82,75.0,False,0.07,0.28,Critical
+DS-1230,36,Male,Former,27.2,0,Healthy Periodontium,1.9,9,0.0,0,0.92,13.2,Healthy Control,5.1,0.64,128,81,101.6,False,0.24,0.33,Low
+DS-1231,45,Male,Current,20.8,1,Stage 1,2.7,15,1.6,2,1.43,14.4,Healthy Control,5.6,2.25,122,73,83.6,False,-0.0,0.25,Moderate
+DS-1232,26,Female,Former,24.0,1,Stage 1,2.8,12,1.6,1,2.52,18.0,Adverse Pregnancy Risk,5.5,1.33,132,83,83.7,True,-0.12,-0.26,Moderate
+DS-1233,29,Male,Current,23.5,2,Stage 2,3.9,33,2.6,3,4.1,38.3,Pre-diabetes / MetSyn,6.3,3.14,116,69,97.5,True,-0.24,-1.16,Critical
+DS-1234,49,Male,Never,32.3,0,Healthy Periodontium,2.3,2,0.0,1,0.17,7.0,Healthy Control,5.0,1.18,126,77,73.6,True,0.08,-0.16,Low
+DS-1235,37,Female,Former,32.2,3,Stage 3,6.1,50,5.6,6,3.81,74.0,Adverse Pregnancy Risk,5.5,3.23,124,76,82.7,False,-0.06,-0.11,High
+DS-1236,70,Female,Former,33.6,2,Stage 2,3.6,32,3.2,3,3.01,38.4,Type 2 Diabetes,7.7,4.79,122,73,55.0,True,-0.59,-1.29,Critical
+DS-1237,66,Male,Former,24.1,4,Stage 4,5.8,78,7.7,10,5.12,116.4,Coronary Artery Disease,5.6,7.87,134,88,55.0,True,-0.17,-2.27,High
+DS-1238,62,Male,Never,28.4,3,Stage 3,5.9,71,5.2,3,4.49,72.2,Type 2 Diabetes,10.1,5.78,132,80,55.0,True,-0.17,-2.73,Critical
+DS-1239,49,Male,Never,30.3,1,Stage 1,3.1,17,1.0,0,2.15,24.5,Healthy Control,5.2,1.56,100,64,84.2,False,0.1,-0.1,Low
+DS-1240,25,Female,Never,31.1,2,Stage 2,4.0,43,3.0,2,3.08,24.7,Healthy Control,5.5,2.37,120,73,76.0,True,-0.18,-0.92,Moderate
+DS-1241,59,Male,Current,33.5,0,Healthy Periodontium,1.9,7,0.0,0,0.03,7.7,Type 2 Diabetes,10.4,4.1,114,72,81.4,True,0.02,0.13,Critical
+DS-1242,70,Female,Never,26.5,1,Stage 1,3.8,13,1.6,0,2.63,19.8,Healthy Control,5.5,1.8,110,64,80.8,True,-0.15,-0.88,Low
+DS-1243,74,Female,Never,30.3,1,Stage 1,3.4,15,1.2,1,1.63,19.5,Pre-diabetes / MetSyn,5.8,1.94,120,78,80.1,False,0.23,0.27,Moderate
+DS-1244,27,Female,Never,30.8,0,Healthy Periodontium,1.8,6,0.0,1,0.57,12.8,Adverse Pregnancy Risk,5.4,0.69,112,66,76.3,False,0.05,0.39,Low
+DS-1245,34,Male,Never,31.6,0,Healthy Periodontium,2.5,6,0.0,0,0.9,4.9,Pre-diabetes / MetSyn,6.4,0.7,138,90,68.5,True,-0.02,0.17,Moderate
+DS-1246,54,Male,Former,24.4,3,Stage 3,6.1,56,4.9,2,4.23,49.9,Rheumatoid Arthritis,5.3,5.29,125,79,69.5,True,-0.16,-1.87,High
+DS-1247,65,Male,Current,32.2,4,Stage 4,7.1,78,6.6,10,6.11,71.2,Stroke / TIA History,5.3,9.17,129,77,55.0,False,0.22,0.4,Critical
+DS-1248,41,Male,Current,30.3,3,Stage 3,5.1,50,5.6,7,4.37,77.5,Pre-diabetes / MetSyn,6.2,4.38,137,85,64.2,True,-0.14,-1.48,Critical
+DS-1249,74,Female,Never,28.7,0,Healthy Periodontium,1.7,4,0.0,1,1.11,5.8,Healthy Control,5.3,0.48,133,81,68.1,False,-0.04,0.19,Low
+DS-1250,28,Female,Never,20.1,1,Stage 1,2.8,24,1.5,2,1.58,25.7,Adverse Pregnancy Risk,5.2,1.41,116,71,89.6,False,0.19,0.12,Moderate
+DS-1251,36,Male,Never,29.6,3,Stage 3,5.9,58,5.3,5,4.03,79.3,Coronary Artery Disease,5.4,4.65,150,95,74.3,True,0.01,-0.66,High
+DS-1252,47,Male,Former,30.2,2,Stage 2,4.5,30,2.4,4,2.61,32.0,Type 2 Diabetes,8.1,3.88,121,80,76.8,False,-0.04,0.12,Critical
+DS-1253,43,Female,Never,37.0,1,Stage 1,3.2,12,1.3,1,1.28,13.9,Chronic Kidney Disease,5.3,5.35,139,85,54.8,False,0.16,0.12,Moderate
+DS-1254,31,Female,Never,22.3,0,Healthy Periodontium,1.9,2,0.0,1,0.36,11.3,Healthy Control,5.2,1.11,125,75,82.9,True,0.1,0.43,Low
+DS-1255,55,Male,Never,25.5,0,Healthy Periodontium,2.4,3,0.0,1,0.04,11.1,Pre-diabetes / MetSyn,5.8,1.35,123,81,89.2,True,-0.03,-0.17,Moderate
+DS-1256,63,Female,Never,30.4,0,Healthy Periodontium,1.7,8,0.0,0,0.56,6.2,Stroke / TIA History,5.4,3.88,117,72,82.2,True,0.03,-0.14,Moderate
+DS-1257,45,Male,Never,26.8,3,Stage 3,5.4,67,4.2,5,5.26,69.6,Coronary Artery Disease,5.5,5.02,138,86,64.8,False,0.01,0.44,High
+DS-1258,65,Female,Current,26.5,2,Stage 2,3.9,23,3.3,0,3.42,36.3,Type 2 Diabetes,7.2,5.58,131,85,62.7,False,0.11,0.1,Critical
+DS-1259,64,Female,Former,27.6,1,Stage 1,3.8,23,2.0,0,1.51,22.8,Coronary Artery Disease,5.4,3.37,136,86,86.1,False,0.18,-0.14,Moderate
+DS-1260,30,Male,Never,27.7,3,Stage 3,5.7,52,5.5,3,4.67,50.8,Type 2 Diabetes,8.3,4.87,134,83,59.0,True,-0.55,-1.55,Critical
+DS-1261,75,Female,Never,28.0,0,Healthy Periodontium,2.3,8,0.0,1,1.19,11.6,Coronary Artery Disease,5.3,3.27,146,91,78.9,False,0.1,0.16,Moderate
+DS-1262,39,Female,Current,27.0,1,Stage 1,3.3,20,1.4,2,1.94,14.3,Pre-diabetes / MetSyn,6.3,2.67,142,88,74.4,False,0.18,0.32,High
+DS-1263,76,Male,Former,25.6,1,Stage 1,3.5,20,1.6,0,1.54,20.8,Healthy Control,5.5,1.06,118,77,55.0,True,-0.21,-0.77,Low
+DS-1264,38,Female,Former,26.6,3,Stage 3,5.8,57,5.6,8,5.04,65.6,Pre-diabetes / MetSyn,5.8,3.24,135,89,55.0,True,0.02,-2.45,Critical
+DS-1265,40,Female,Former,27.1,2,Stage 2,4.7,26,3.5,2,3.97,27.0,Healthy Control,5.4,2.09,120,72,87.1,True,-0.21,-1.24,Moderate
+DS-1266,48,Female,Current,25.5,2,Stage 2,4.5,22,3.1,0,3.79,36.4,Healthy Control,4.9,3.53,111,71,67.8,False,0.22,0.2,High
+DS-1267,31,Female,Never,26.5,1,Stage 1,3.3,22,1.7,1,2.39,24.9,Pre-diabetes / MetSyn,5.9,1.32,135,80,62.0,False,0.16,-0.1,Moderate
+DS-1268,23,Female,Never,33.2,3,Stage 3,5.8,72,4.2,2,5.31,55.4,Coronary Artery Disease,5.4,4.66,143,94,101.0,True,-0.14,-2.17,High
+DS-1269,72,Male,Former,36.3,2,Stage 2,3.8,32,3.3,1,3.98,32.7,Healthy Control,5.5,1.76,123,75,67.7,False,0.21,0.18,Moderate
+DS-1270,62,Female,Current,34.3,3,Stage 3,6.1,66,5.5,3,4.71,64.4,Coronary Artery Disease,5.3,6.51,145,89,58.3,True,-0.14,-0.62,Critical
+DS-1271,41,Female,Never,27.3,3,Stage 3,4.8,66,4.1,4,5.4,53.6,Rheumatoid Arthritis,5.6,5.74,125,79,84.6,False,0.17,0.23,High
+DS-1272,31,Female,Never,26.8,2,Stage 2,4.4,34,2.7,3,3.11,25.1,Pre-diabetes / MetSyn,5.7,1.89,133,81,87.1,True,-0.19,-0.96,High
+DS-1273,58,Male,Current,25.4,2,Stage 2,4.6,38,4.0,0,3.68,36.8,Stroke / TIA History,5.3,6.25,128,80,84.1,True,-0.13,-0.61,High
+DS-1274,42,Female,Never,25.1,0,Healthy Periodontium,1.7,4,0.0,1,0.2,7.0,Healthy Control,5.1,0.57,115,71,73.6,True,-0.08,-0.04,Low
+DS-1275,60,Male,Never,26.5,3,Stage 3,5.2,47,4.5,4,4.64,61.3,Coronary Artery Disease,5.5,6.7,143,87,65.9,True,-0.02,-2.49,High
+DS-1276,56,Male,Former,28.7,2,Stage 2,4.1,39,3.2,0,3.96,47.1,Pre-diabetes / MetSyn,5.9,2.77,110,74,80.2,False,-0.08,0.28,High
+DS-1277,58,Male,Never,22.6,2,Stage 2,3.7,26,3.7,2,4.08,29.1,Coronary Artery Disease,5.1,5.29,154,91,74.4,False,0.17,0.15,High
+DS-1278,72,Male,Former,22.3,4,Stage 4,6.9,83,7.0,10,6.36,90.7,Coronary Artery Disease,5.3,7.42,155,99,75.9,True,-0.18,-2.28,High
+DS-1279,45,Male,Never,27.4,3,Stage 3,5.7,53,4.0,8,4.95,49.4,Type 2 Diabetes,9.5,5.73,132,79,55.0,True,-0.15,-1.28,Critical
+DS-1280,56,Female,Former,29.8,4,Stage 4,5.5,82,7.0,15,4.88,121.6,Coronary Artery Disease,5.2,7.95,139,82,60.4,True,0.05,-3.07,High
+DS-1281,66,Female,Current,23.9,4,Stage 4,5.8,76,6.2,15,5.8,71.5,Coronary Artery Disease,5.2,9.31,145,86,62.9,True,0.03,-2.63,Critical
+DS-1282,78,Male,Former,31.6,0,Healthy Periodontium,2.5,2,0.0,1,0.86,8.7,Healthy Control,5.5,1.02,131,81,67.3,True,0.02,0.41,Low
+DS-1283,72,Male,Never,21.9,2,Stage 2,3.8,25,2.3,0,3.57,44.2,Chronic Kidney Disease,5.0,5.27,120,75,47.6,False,0.01,0.38,High
+DS-1284,71,Male,Never,27.7,2,Stage 2,4.0,33,4.1,4,3.56,40.3,Healthy Control,5.0,2.97,131,83,69.8,False,0.12,0.07,Moderate
+DS-1285,32,Male,Never,20.3,3,Stage 3,4.7,54,5.7,7,4.2,54.2,Coronary Artery Disease,5.2,6.43,152,90,71.0,False,-0.08,-0.18,High
+DS-1286,34,Female,Never,29.5,3,Stage 3,5.8,61,5.5,3,4.12,45.9,Rheumatoid Arthritis,5.3,5.59,142,93,65.6,False,0.01,0.08,High
+DS-1287,62,Male,Current,21.9,3,Stage 3,5.5,58,5.4,4,4.24,70.2,Type 2 Diabetes,10.4,6.63,117,77,75.7,False,-0.04,0.26,Critical
+DS-1288,55,Female,Former,26.9,2,Stage 2,3.9,34,3.5,4,3.67,29.0,Chronic Kidney Disease,5.0,4.58,143,85,50.5,False,0.06,0.03,High
+DS-1289,59,Male,Never,24.4,3,Stage 3,5.3,69,4.8,4,5.25,57.7,Coronary Artery Disease,5.7,4.86,150,98,59.0,False,0.16,0.3,Critical
+DS-1290,76,Female,Never,30.8,2,Stage 2,3.7,44,3.7,2,2.52,31.2,Rheumatoid Arthritis,5.2,4.68,124,74,62.5,True,-0.11,-1.11,High
+DS-1291,72,Female,Former,26.6,2,Stage 2,4.6,32,3.9,3,3.89,40.8,Healthy Control,5.0,2.67,119,76,57.4,False,0.01,-0.18,Moderate
+DS-1292,72,Male,Current,22.3,1,Stage 1,3.7,15,1.7,2,2.75,20.3,Healthy Control,5.3,2.65,116,74,70.6,True,-0.23,-0.23,Moderate
+DS-1293,40,Male,Never,24.6,2,Stage 2,3.6,23,3.0,0,2.81,44.6,Type 2 Diabetes,10.3,3.81,131,79,71.2,False,-0.04,0.17,Critical
+DS-1294,41,Male,Never,29.5,2,Stage 2,3.9,22,4.2,3,2.62,33.6,Rheumatoid Arthritis,5.4,4.9,121,78,64.9,True,-0.13,-1.6,High
+DS-1295,61,Female,Never,23.0,4,Stage 4,5.8,91,5.7,16,6.31,83.2,Chronic Kidney Disease,5.6,8.19,127,80,57.9,True,-0.02,-2.25,High
+DS-1296,71,Female,Never,25.5,1,Stage 1,2.8,10,1.6,0,2.29,21.8,Type 2 Diabetes,9.4,2.59,102,63,67.8,True,-0.29,-0.61,High
+DS-1297,52,Female,Current,33.3,1,Stage 1,2.6,11,1.2,0,2.11,17.7,Healthy Control,4.9,1.9,124,79,84.6,True,-0.13,-0.71,Moderate
+DS-1298,25,Male,Never,28.8,1,Stage 1,2.8,13,1.4,0,1.54,12.2,Healthy Control,5.5,2.02,131,77,83.9,False,0.1,-0.08,Low
+DS-1299,35,Female,Current,27.1,1,Stage 1,2.9,15,1.4,0,1.88,16.6,Healthy Control,4.9,2.83,114,72,88.2,True,-0.07,-0.21,Moderate
+DS-1300,66,Female,Former,24.4,4,Stage 4,6.7,76,5.9,16,5.31,116.8,Coronary Artery Disease,5.3,6.78,161,98,84.4,True,-0.23,-2.63,High
+DS-1301,40,Male,Never,31.7,1,Stage 1,2.6,24,1.9,1,2.46,16.8,Healthy Control,5.4,2.11,129,78,86.7,True,-0.01,-0.42,Low
+DS-1302,36,Female,Former,24.2,0,Healthy Periodontium,2.3,3,0.0,1,0.1,6.4,Coronary Artery Disease,5.6,3.35,125,80,67.3,True,0.05,0.19,Moderate
+DS-1303,41,Female,Former,27.5,4,Stage 4,5.8,85,5.7,10,5.44,79.2,Coronary Artery Disease,5.1,8.31,159,96,78.0,False,0.01,-0.02,High
+DS-1304,57,Female,Never,26.6,1,Stage 1,3.2,12,2.1,0,1.22,19.3,Pre-diabetes / MetSyn,6.0,2.52,120,76,70.9,True,-0.13,-0.52,Moderate
+DS-1305,34,Female,Current,26.0,3,Stage 3,5.8,62,4.9,5,4.94,59.7,Healthy Control,5.5,4.26,111,74,66.2,True,-0.25,-1.1,High
+DS-1306,63,Female,Never,27.4,2,Stage 2,4.8,38,4.0,3,2.8,34.2,Pre-diabetes / MetSyn,6.2,3.19,130,84,63.1,False,0.14,-0.2,High
+DS-1307,32,Female,Never,29.2,0,Healthy Periodontium,2.4,8,0.0,1,1.03,6.2,Healthy Control,5.2,0.58,124,73,55.3,False,0.24,0.37,Low
+DS-1308,50,Male,Current,28.8,1,Stage 1,3.0,16,1.1,0,1.78,20.5,Type 2 Diabetes,10.4,3.27,106,61,74.2,False,0.02,0.24,Critical
+DS-1309,43,Female,Current,31.9,4,Stage 4,6.6,79,6.9,10,6.2,114.3,Healthy Control,5.2,6.27,122,78,86.8,True,-0.25,-1.86,High
+DS-1310,74,Female,Never,30.7,2,Stage 2,3.6,45,2.9,3,2.92,35.6,Pre-diabetes / MetSyn,6.0,3.67,133,79,59.8,True,0.01,-0.58,High
+DS-1311,72,Male,Never,25.2,3,Stage 3,5.1,69,4.3,5,5.52,64.3,Coronary Artery Disease,5.7,5.81,149,92,55.0,False,0.23,0.24,Critical
+DS-1312,64,Male,Current,24.3,3,Stage 3,5.4,61,5.6,6,5.18,69.0,Pre-diabetes / MetSyn,6.1,4.41,121,71,55.0,False,0.23,0.17,Critical
+DS-1313,22,Female,Never,30.3,2,Stage 2,4.7,35,2.9,2,3.94,46.4,Healthy Control,5.5,1.72,106,64,63.3,True,-0.07,-1.65,Moderate
+DS-1314,64,Male,Former,29.8,2,Stage 2,4.9,25,2.8,4,3.36,43.9,Coronary Artery Disease,5.0,5.84,157,100,55.9,False,0.0,0.33,High
+DS-1315,76,Male,Current,22.3,2,Stage 2,4.0,43,3.2,2,3.86,33.4,Coronary Artery Disease,5.4,5.29,143,93,73.2,True,-0.08,-1.22,High
+DS-1316,52,Female,Current,29.0,1,Stage 1,3.6,13,1.9,0,1.82,24.4,Healthy Control,5.6,1.95,107,65,72.8,False,-0.01,-0.12,Moderate
+DS-1317,47,Female,Never,22.7,2,Stage 2,3.7,45,3.0,0,3.9,44.8,Pre-diabetes / MetSyn,5.8,2.11,123,77,76.0,True,-0.01,-1.6,High
+DS-1318,52,Female,Never,28.8,0,Healthy Periodontium,2.0,4,0.0,1,1.14,4.7,Type 2 Diabetes,9.5,2.77,123,79,60.0,True,-0.1,0.09,High
+DS-1319,42,Male,Never,24.2,2,Stage 2,4.4,24,3.4,0,2.65,27.0,Type 2 Diabetes,10.1,3.8,124,79,68.6,True,-0.35,-1.46,Critical
+DS-1320,68,Female,Never,30.4,1,Stage 1,3.1,24,1.2,1,1.34,15.7,Healthy Control,5.6,1.51,125,77,87.6,True,-0.12,-0.82,Low
+DS-1321,72,Female,Never,29.7,4,Stage 4,5.9,72,5.8,6,5.89,92.4,Type 2 Diabetes,10.8,5.4,116,76,71.9,True,-0.39,-1.68,Critical
+DS-1322,77,Female,Former,32.0,2,Stage 2,4.8,27,2.9,3,2.83,43.3,Pre-diabetes / MetSyn,6.1,2.97,110,71,68.7,False,-0.08,0.27,High
+DS-1323,45,Male,Former,30.7,1,Stage 1,3.1,17,2.2,1,2.05,16.0,Healthy Control,5.2,2.43,117,69,87.7,False,0.18,-0.19,Low
+DS-1324,49,Male,Never,21.2,2,Stage 2,4.9,39,3.6,3,2.53,28.6,Rheumatoid Arthritis,5.4,5.04,109,65,83.4,False,0.19,0.13,High
+DS-1325,25,Female,Never,24.5,0,Healthy Periodontium,2.7,7,0.0,0,1.16,12.8,Rheumatoid Arthritis,5.2,2.61,134,88,65.7,False,0.02,-0.2,Moderate
+DS-1326,78,Male,Never,30.0,0,Healthy Periodontium,2.1,5,0.0,0,0.74,13.2,Healthy Control,5.2,0.87,132,80,67.1,False,-0.1,0.37,Low
+DS-1327,67,Male,Never,29.0,1,Stage 1,2.8,16,1.9,0,1.47,14.9,Type 2 Diabetes,9.5,3.95,108,71,70.4,False,-0.05,0.42,High
+DS-1328,72,Male,Never,27.2,2,Stage 2,3.5,43,2.7,2,3.27,38.3,Healthy Control,5.3,2.2,128,78,55.6,True,-0.05,-1.24,Moderate
+DS-1329,52,Male,Former,26.0,2,Stage 2,3.8,40,3.5,1,2.91,27.2,Healthy Control,5.2,1.75,114,68,65.9,False,0.13,-0.0,Moderate
+DS-1330,39,Female,Never,23.5,1,Stage 1,3.1,15,2.1,0,1.27,12.8,Pre-diabetes / MetSyn,5.8,1.97,133,81,86.0,False,0.03,0.33,Moderate
+DS-1331,69,Female,Never,30.2,1,Stage 1,3.3,11,2.1,0,2.27,20.7,Healthy Control,5.6,1.5,123,77,80.8,True,-0.24,-0.79,Low
+DS-1332,57,Female,Current,27.1,3,Stage 3,6.0,62,5.6,5,4.93,49.7,Coronary Artery Disease,5.8,6.67,149,93,69.2,False,0.16,0.05,Critical
+DS-1333,71,Female,Never,26.3,1,Stage 1,2.8,12,1.7,2,2.38,24.7,Pre-diabetes / MetSyn,5.9,1.71,128,77,56.4,True,-0.06,-0.24,Moderate
+DS-1334,39,Male,Never,28.6,3,Stage 3,5.6,55,5.8,3,4.76,45.1,Type 2 Diabetes,10.0,5.38,129,76,110.5,True,-0.29,-1.29,Critical
+DS-1335,63,Female,Current,26.0,3,Stage 3,5.5,68,4.4,4,4.17,70.2,Chronic Kidney Disease,5.5,6.19,145,91,56.3,True,-0.06,-2.75,Critical
+DS-1336,32,Male,Current,29.3,3,Stage 3,4.9,49,4.1,3,4.62,70.8,Coronary Artery Disease,5.1,5.0,147,87,89.5,False,0.2,-0.14,Critical
+DS-1337,30,Female,Former,27.7,3,Stage 3,5.9,59,4.6,3,4.24,66.7,Type 2 Diabetes,10.6,4.38,119,73,89.1,True,-0.4,-0.62,Critical
+DS-1338,36,Male,Current,27.9,2,Stage 2,3.6,32,2.5,0,4.11,38.5,Healthy Control,5.1,3.26,132,78,81.9,True,0.01,-0.43,High
+DS-1339,71,Male,Never,23.7,2,Stage 2,4.5,37,3.8,0,3.54,47.0,Type 2 Diabetes,8.5,4.47,131,85,70.9,False,0.09,0.15,Critical
+DS-1340,53,Male,Never,37.3,2,Stage 2,4.1,40,3.8,1,3.77,29.6,Healthy Control,5.1,2.59,131,78,83.3,True,-0.23,-1.66,Moderate
+DS-1341,66,Male,Never,22.1,0,Healthy Periodontium,2.7,7,0.0,0,0.98,10.9,Healthy Control,5.3,0.48,124,74,92.1,False,0.06,0.27,Low
+DS-1342,50,Male,Never,37.9,0,Healthy Periodontium,2.6,2,0.0,0,0.7,4.6,Rheumatoid Arthritis,5.3,3.33,124,74,97.4,True,0.16,0.06,Moderate
+DS-1343,25,Male,Never,26.5,3,Stage 3,6.2,44,5.5,5,4.66,71.1,Coronary Artery Disease,5.2,5.07,146,88,70.7,True,-0.07,-1.14,High
+DS-1344,41,Male,Former,22.6,2,Stage 2,3.5,30,2.5,4,3.52,37.5,Rheumatoid Arthritis,5.1,4.09,121,78,80.3,False,0.21,0.13,High
+DS-1345,54,Male,Never,31.6,3,Stage 3,5.4,42,4.5,3,5.03,48.2,Coronary Artery Disease,5.8,5.12,142,90,71.9,False,0.17,0.02,Critical
+DS-1346,45,Female,Never,18.5,2,Stage 2,4.5,29,2.7,4,3.59,47.0,Coronary Artery Disease,5.2,5.67,127,75,76.9,True,-0.2,-0.73,High
+DS-1347,38,Female,Current,25.7,3,Stage 3,5.3,48,5.7,6,4.68,59.5,Type 2 Diabetes,8.5,6.22,124,81,94.5,True,-0.57,-2.57,Critical
+DS-1348,46,Male,Former,27.1,3,Stage 3,5.0,69,5.2,4,4.64,70.7,Chronic Kidney Disease,5.6,7.93,134,89,42.6,False,-0.06,0.1,High
+DS-1349,56,Male,Current,24.8,1,Stage 1,2.9,19,1.0,2,2.52,12.9,Pre-diabetes / MetSyn,5.9,2.13,114,69,71.5,True,-0.05,-0.74,High
+DS-1350,75,Male,Never,22.2,4,Stage 4,6.1,74,5.9,10,6.31,96.5,Coronary Artery Disease,5.7,7.67,151,91,80.6,False,-0.1,0.38,Critical
