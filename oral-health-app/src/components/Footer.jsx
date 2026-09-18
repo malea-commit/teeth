@@ -19,7 +19,7 @@ export default function Footer({ setActiveTab }) {
               A comprehensive translational medical platform bridging dental clinical indicators, salivary diagnostics, and systemic pathophysiological disease states. Supporting interprofessional clinical collaboration between dental surgeons and physicians.
             </p>
             <div className="pt-2 text-[11px] text-slate-500">
-              Epidemiological Cohort: 350 Phenotyped Patients • AAP/EFP 2018 Staging Compliant
+              Clinical Cohort: 350 Phenotyped Patients (Hundreds of Patients) • AAP/EFP 2018 Staging Compliant
             </div>
           </div>
 

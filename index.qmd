@@ -2,7 +2,7 @@
 title: "Teeth and Oral Health"
 ---
 
-Welcome to our data science investigation into oral health indicators and systemic conditions.
+This project investigates oral health indicators and systemic disease markers across a clinical cohort of 350 patients (in the hundreds, rather than thousands). By examining periodontal staging alongside salivary and systemic biomarkers, we explore how localized oral inflammation correlates with broader physiological health.
 
 ```{r}
 #| label: setup
@@ -14,6 +14,10 @@ library(tidyverse)
 teeth_data <- read_csv("oral_systemic_cohort.csv", show_col_types = FALSE)
 ```
 
+## Salivary Biomarkers Across Periodontal Stages
+
+The chart below shows salivary MMP-8 levels across the four stages of periodontal disease among the 350 patients in our cohort.
+
 ```{r}
 #| label: teeth-plot
 #| echo: false
@@ -24,7 +28,9 @@ teeth_data |>
   theme_minimal() +
   labs(
     title = "Salivary MMP-8 Biomarker by Periodontal Stage",
+    subtitle = "Distribution across a cohort of 350 patients",
     x = "Periodontal Stage",
-    y = "Salivary MMP-8 (ng/mL)"
+    y = "Salivary MMP-8 (ng/mL)",
+    caption = "Source: Clinical cohort dataset (N = 350)"
   )
 ```

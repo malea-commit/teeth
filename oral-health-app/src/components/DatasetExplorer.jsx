@@ -187,10 +187,10 @@ export default function DatasetExplorer() {
               <span>Interactive Clinical Cohort & Biomarker Dataset</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight">
-              Clinical & Epidemiological Data Explorer
+              Clinical Cohort Data Explorer
             </h2>
             <p className="mt-2 text-slate-600 text-sm max-w-2xl leading-relaxed">
-              Real-world multi-parameter patient cohort (N = 350) correlating periodontal disease severity (PPD, BOP, aMMP-8, *P. gingivalis*) with systemic cardiovascular, metabolic, renal, and autoimmune biomarkers and 6-month post-therapy shifts.
+              Clinical cohort of 350 patients (hundreds of individuals) correlating periodontal disease severity (PPD, BOP, aMMP-8, *P. gingivalis*) with systemic cardiovascular, metabolic, renal, and autoimmune biomarkers and 6-month post-therapy shifts.
             </p>
           </div>
 

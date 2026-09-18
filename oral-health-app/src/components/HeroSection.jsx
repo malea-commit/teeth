@@ -41,7 +41,7 @@ export default function HeroSection({ setActiveTab, onSelectCondition }) {
     {
       value: "350",
       label: "Multi-Marker Cohort Dataset",
-      subtext: "Granular patient profiles: PPD, BOP, aMMP-8, hs-CRP, eGFR, 6-mo outcomes",
+      subtext: "Clinical profiles across hundreds of patients (350 total) tracking PPD, BOP, aMMP-8, hs-CRP, eGFR",
       icon: Database,
       color: "text-teal-600",
       bg: "bg-teal-50 border-teal-200"
@@ -58,7 +58,7 @@ export default function HeroSection({ setActiveTab, onSelectCondition }) {
         <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs font-semibold mb-6">
             <ShieldCheck className="w-4 h-4 text-teal-400" />
-            <span>CLINICAL EVIDENCE BASE & EPIDEMIOLOGICAL REGISTRY</span>
+            <span>CLINICAL EVIDENCE BASE & PATIENT STUDY COHORT</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">

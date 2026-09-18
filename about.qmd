@@ -2,4 +2,12 @@
 title: "About"
 ---
 
-About this project on oral and systemic health data.
+## About This Project
+
+This project explores the connections between oral health and systemic pathology using a clinical research cohort of 350 patients (hundreds of individuals, not thousands). 
+
+### Data Overview
+
+- **Cohort Size:** 350 patients (in the hundreds)
+- **Oral Health Markers:** Periodontal stage, probing pocket depth (PPD), bleeding on probing (BOP), clinical attachment loss (CAL), missing teeth, salivary MMP-8, and *P. gingivalis* load
+- **Systemic Markers:** HbA1c, hs-CRP, systolic/diastolic blood pressure, and eGFR
