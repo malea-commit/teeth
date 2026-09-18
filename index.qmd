@@ -1,0 +1,30 @@
+---
+title: "Teeth and Oral Health"
+---
+
+Welcome to our data science investigation into oral health indicators and systemic conditions.
+
+```{r}
+#| label: setup
+#| message: false
+#| echo: false
+
+library(tidyverse)
+
+teeth_data <- read_csv("oral_systemic_cohort.csv", show_col_types = FALSE)
+```
+
+```{r}
+#| label: teeth-plot
+#| echo: false
+
+teeth_data |>
+  ggplot(aes(x = periodontal_stage_label, y = salivary_mmp8_ng_ml, fill = periodontal_stage_label)) +
+  geom_boxplot(alpha = 0.7, show.legend = FALSE) +
+  theme_minimal() +
+  labs(
+    title = "Salivary MMP-8 Biomarker by Periodontal Stage",
+    x = "Periodontal Stage",
+    y = "Salivary MMP-8 (ng/mL)"
+  )
+```
